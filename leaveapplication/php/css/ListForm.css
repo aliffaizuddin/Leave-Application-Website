@@ -1,0 +1,65 @@
+body {
+    margin-left: 100px;
+    font-family: Arial, sans-serif;
+    background-image: url("img/mountains1.png");
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.border{
+    background-color: #e46262;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;
+   
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+input[type="text"],
+select {
+    padding: 5px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #4CAF50;
+}
